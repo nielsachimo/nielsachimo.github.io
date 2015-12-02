@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RPS</title>
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="style.css" />
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+	<script src='script.js'></script>
+
+</head>
+<body>
+
+	<div id="header" class="text-center">
+		<a href="homepage.html"><p class="header-title">R<span class="header-title-additional">ock</span> P<span class="header-title-additional">aper</span> S<span class="header-title-additional">cissors</span></p></a>
+	</div>
+
+	<div id="interface">
+		<div id="preface">
+			<strong><p class="interface-words med-word text-center">Choose wisely:</p></strong>
+			<br>
+			<div class="text-center">
+					<a href="#"><div class="best-of-buttons" id="best-of-three-button">Best of 3</div></a>
+					<br>
+					<a href="#"><div class="best-of-buttons" id="best-of-six-button">Best of 6</div></a>
+					<br>
+					<a href="#"><div class="best-of-buttons" id="best-of-ten-button">Best of 10</div></a>
+					<br>
+					<a href="#"><div class="best-of-buttons" id="best-of-twenty-button">Best of 20</div></a>
+			</div>
+		</div>
+		<div id="actual-game" class="text-center"> <!-- fakiness started with the &nbsp; =D -->
+			<strong><p id="initial-sentence" class="interface-words med-word">&nbsp; &nbsp; &nbsp; &nbsp; You know the drill, choose your weapon:</p></strong>
+			<div class="row">
+				<a href="#"><div id="rock-game" class="col-md-3">
+					<img id="r-img" src="rps rock.png">
+				</div></a>
+				<div class="free-space col-md-1"></div>
+				<a href="#"><div id="paper-game" class="col-md-3">
+					<img id="p-img" src="rps paper.png">
+				</div></a>
+				<div class="free-space col-md-1"></div>
+				<a href="#"><div id="scissor-game" class="col-md-3">
+					<img id="s-img" src="rps scissor.png">
+				</div></a>
+			</div>
+			<br>
+			<p id="game-tally" class="interface-words small-word"></p>
+			<p id="result" class="interface-words med-word"></p>
+			<p id="score-board" class="interface-words small-word"></p>
+			<p id="final-result" class="interface-words med-word red"></p>
+			<br>
+			<a href="#"><div id="restart-button" class="best-of-buttons">Restart</div></a>
+		</div>
+	</div>
+
+
+</body>
+</html>

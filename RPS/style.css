@@ -1,0 +1,139 @@
+/* all pages */
+
+body {
+	background-color: #F0F8FF;
+}
+
+.red {
+	color: #f00;
+}
+
+.blue {
+	color: #00f;
+}
+
+/* I used important because when I was hovering at header, the color wasn't changing because of the .header-title additional*/
+.black {
+	color: #000 !important;
+}
+
+#header {
+	background-color: #008BFF;
+	padding-top: -3px;
+	padding-bottom: -3px;
+}
+
+.header-title {
+	color: #f00;
+	font-size: 30px;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+}
+
+.header-title-additional {
+	color: #F0F8FF;
+}
+
+.free-space {
+	
+}
+
+/* homepage page .. haha redundancy */
+
+#dashboard {
+	padding-top: 40px;
+}
+
+#open-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.the-buttons {
+	display: block;
+	background-color: #008BFF;
+	color: #F0F8FF;
+	font-size: 27px;
+	font-family: "Roboto", sans-serif;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: bold;
+}
+
+.the-buttons:hover {
+	opacity: 0.7;
+}
+
+a, a:hover, a:visited, a:active {
+	text-decoration: none;
+}
+
+/* instructions page */
+
+#instructions {
+	padding-top: 40px;
+	padding-left: 25px;
+	padding-right: auto;
+}
+
+.instructions-title {
+	font-size: 30px;
+	font-family: "Roboto", sans-serif;
+}
+
+.instructions-description {
+	font-size: 15px;
+	font-family: "Roboto", sans-serif;
+}
+
+#home-link {
+	color: purple;
+}
+
+/* game page */
+
+#interface {
+	padding-top: 40px;
+	padding-left: 380px;
+	padding-right: 380px;
+}
+
+.interface-words {
+	font-family: "Roboto", sans-serif;
+}
+
+.big-word {
+	font-size: 30px;
+}
+
+.small-word {
+	font-size: 15px;
+}
+
+.med-word {
+	font-size: 20px;
+}
+
+.best-of-buttons {
+	display: block;
+	background-color: #008BFF;
+	color: #F0F8FF;
+	font-size: 22px;
+	width: 180px;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.best-of-buttons:hover {
+	opacity: 0.7;
+}
+
+/* fakiness =D hahaha.. using position: relative */
+#actual-game {
+	position: relative;
+	left: -23px;
+}
